@@ -8,4 +8,8 @@ public class SoundTest {
 		printSound( new Sparrow() );
 		printSound( new Duck() );
 	}
+	
+	public static void printSound(Soundable obj){
+		System.out.println(obj.sound());
+	}
 }

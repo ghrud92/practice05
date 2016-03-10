@@ -1,6 +1,6 @@
 package prob5;
 
-public class Dropship {
+public class Dropship extends Unit {
 	
 	// 현재 위치
 	private int x;
